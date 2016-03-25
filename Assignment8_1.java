@@ -18,6 +18,8 @@ public class Assignment8_1 {
         System.out.printf("%s (%.2f€)\n", t, (double) t.prijs() / 100);
         t = new Spikkels(new VanilleIjs());
         System.out.printf("%s (%.2f€)\n", t, (double) t.prijs() / 100);
+        // will throw an Error because you shouldn't use that combination
+        // t = new Chocodip(new Slagroom(new YoghurtIjs()));
     }
 
 }
