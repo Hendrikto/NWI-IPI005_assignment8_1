@@ -1,8 +1,10 @@
 package assignment8_1;
 
 /**
+ * An Ijsje with vanilla flavor.
  *
- * @author Hendrik
+ * @author Hendrik Werner // s4549775
+ * @author Jasper Haasdijk // s4449754
  */
 public class VanilleIjs extends Ijsje {
 

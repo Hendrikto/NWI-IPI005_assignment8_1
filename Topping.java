@@ -1,8 +1,10 @@
 package assignment8_1;
 
 /**
+ * A base decorator for Ijsjes.
  *
- * @author Hendrik
+ * @author Hendrik Werner // s4549775
+ * @author Jasper Haasdijk // s4449754
  */
 public abstract class Topping extends Ijsje {
 
