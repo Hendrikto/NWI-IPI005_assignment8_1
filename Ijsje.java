@@ -11,7 +11,7 @@ public abstract class Ijsje {
     protected String beschrijving = "onbekende ijsje";
 
     /**
-     * Get the price ins cents.
+     * Get the price in cents.
      *
      * @return the price in cents.
      */
@@ -26,6 +26,11 @@ public abstract class Ijsje {
         return this.beschrijving;
     }
 
+    /**
+     * Get a String representation.
+     *
+     * @return a String representation
+     */
     @Override
     public abstract String toString();
 }

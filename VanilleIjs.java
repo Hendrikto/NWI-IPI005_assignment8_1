@@ -22,6 +22,11 @@ public class VanilleIjs extends Ijsje {
         return 150;
     }
 
+    /**
+     * Get a String representation.
+     *
+     * @return a String representation
+     */
     @Override
     public String toString() {
         return this.geefBeschrijving();

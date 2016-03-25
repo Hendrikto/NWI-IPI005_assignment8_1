@@ -8,6 +8,11 @@ package assignment8_1;
  */
 public class Chocodip extends Topping {
 
+    /**
+     * Constructor method.
+     *
+     * @param ijs the Ijsje to base this on
+     */
     public Chocodip(Ijsje ijs) {
         super(ijs);
         if (ijs instanceof Slagroom) {
@@ -16,6 +21,11 @@ public class Chocodip extends Topping {
         this.beschrijving = "Chocodip";
     }
 
+    /**
+     * Get the price in cents.
+     *
+     * @return the price in cents
+     */
     @Override
     public int prijs() {
         return this.base.prijs() + 30;

@@ -8,11 +8,21 @@ package assignment8_1;
  */
 public class Spikkels extends Topping {
 
+    /**
+     * Constructor method.
+     *
+     * @param ijs the Ijsje to base this on
+     */
     public Spikkels(Ijsje ijs) {
         super(ijs);
         this.beschrijving = "Spikkels";
     }
 
+    /**
+     * Get the price in cents.
+     *
+     * @return the price in cents.
+     */
     @Override
     public int prijs() {
         return this.base.prijs();

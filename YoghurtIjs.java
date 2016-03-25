@@ -22,6 +22,11 @@ public class YoghurtIjs extends Ijsje {
         return 200;
     }
 
+    /**
+     * Get a String representation.
+     *
+     * @return a String representation
+     */
     @Override
     public String toString() {
         return this.geefBeschrijving();
